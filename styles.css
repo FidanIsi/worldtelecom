@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body header {
+  width: 100%;
+  height: 58px;
+  background-color: #383e42;
+}
+
+body header .top_style {
+  width: 85%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  margin: 0 120px;
+}
+
+body header .top_style .left {
+  width: 219px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+body header .top_style .left .logo_container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+body header .top_style .left .logo_container .divider {
+  height: 18px;
+  width: 1px;
+  background-color: white;
+}
+
+body header .top_style .left .contact {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+body header .top_style .right {
+  width: 684px;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  flex-wrap: nowrap;
+}
+
+body header .top_style .right .right-item a {
+  text-decoration: none;
+  color: white;
+}
+
+body header .top_style .right .right-item .active {
+  color: #69747d;
+}
+
+body main {
+  width: 100vw;
+  height: 73px;
+  background-color: #434a4f;
+}
+
+body main .container {
+  width: 85%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0 120px;
+}
+
+body main .container .left {
+  width: 1000px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+body main .container .left form input {
+  width: 800px;
+  height: 40px;
+  border: none;
+  padding-left: 36px;
+  border-radius: 6px;
+  position: relative;
+}
+
+body main .container .left form input::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+  color: #8bb4b6;
+}
+
+body main .container .left form span{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+body main .container .left button {
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  background-color: #495056;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 13px 38px;
+  cursor: pointer;
+}
+
+body main .container .left button:hover {
+  background-color: white;
+  color: #495056;
+}
+
+body main .container .right {
+  display: flex;
+  align-items: center;
+}
+
+body main .container .right .right_item {
+  width: 80px;
+  height: 73px;
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  border-left: 1px solid #383e42;
+  border-right: 1px solid #383e42;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+
